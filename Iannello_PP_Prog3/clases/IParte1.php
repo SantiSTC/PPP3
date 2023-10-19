@@ -4,5 +4,4 @@ interface IParte1 {
     public static function traer();
 }
 
-
 ?>

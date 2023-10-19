@@ -1,0 +1,1 @@
+["{\"patente\":\"AA888CC\",\"marca\":\"Citroen\",\"color\":\"Blanco\",\"precio\":3000666,\"pathFoto\":\".\\\/autosBorrados\\\/AA888CC.borrado.045920.jpg\"}","{\"patente\":\"AA888CC\",\"marca\":\"Citroen\",\"color\":\"Blanco\",\"precio\":3000666,\"pathFoto\":\".\\\/autosBorrados\\\/AA888CC.borrado.050057.jpg\"}"]

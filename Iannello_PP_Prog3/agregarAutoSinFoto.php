@@ -1,6 +1,7 @@
 <?php
 require_once "clases/Auto.php";
 require_once "clases/AutoBD.php";
+require_once "clases/AccesoPDO.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $auto_json = isset($_POST["auto_json"]) ? $_POST["auto_json"] : null;

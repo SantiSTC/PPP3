@@ -4,9 +4,9 @@
         public string $patente;
         public string $marca;
         public string $color;
-        public float $precio;
+        public int $precio;
 
-        public function __construct(string $patente, string $marca = "", string $color = "", string $precio = ""){
+        public function __construct(string $patente, string $marca = "", string $color = "", int $precio = 0){
             $this->patente = $patente;
             $this->marca = $marca;
             $this->color = $color;
@@ -59,8 +59,9 @@
     
                     foreach($lineas as $linea){
                         $data = json_decode($linea);
-    
-                        if($data != null){
+
+                        if($data !== null){
+                            $data = $data[0];
                             $auto = new Auto($data->patente, $data->marca, $data->color, $data->precio);
     
                             $autos[] = $auto;

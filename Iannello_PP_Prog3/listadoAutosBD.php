@@ -33,7 +33,7 @@ $autos = AutoBD::traer();
                     <td><?php echo $auto->marca; ?></td>
                     <td><?php echo $auto->color; ?></td>
                     <td><?php echo $auto->precio; ?></td>
-                    <td><?php echo $auto->foto; ?></td>
+                    <td><?php echo $auto->pathFoto; ?></td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
